@@ -10,7 +10,7 @@ print("4- Mostrar Resta\n")
 print("5- Mostrar Multiplicación\n")
 print("6- Mostrar División\n")
 print("7- Salir\n")
-a=(input())
+a=int((input()))
 while a!=7:
     if a==1:
         print("Ingrese Valor 1")
